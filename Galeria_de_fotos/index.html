@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Galeria</title>
+        <style type="text/css">
+        .bgbox {
+            position: fixed;
+            left: 0;
+            top:0;
+            width: 100%;
+            height: 100%;
+            background-color:rgba(0, 0, 0, 0.6);
+            display:none;
+        }
+        .divbox{
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 500px;
+            height: 430px;
+            margin-left: -270px;
+            margin-top:-235px;
+            padding: 20px;
+            display:none;
+            background:#fff;
+        }
+        .divbox img{
+            width: 500px;
+            height: 400px;
+            margin: auto;
+        }
+        </style>
+    </head>
+    <body>    
+        <a href="javascript:;" class="galeria"><img src="./84_2.jpg"/></a>
+        <a href="javascript:;" class="galeria"><img src="./84.jpg"/></a>
+
+        <div class="bgbox"></div>
+        <div class="divbox">
+            <img src="" border="0" width="100%" /><br/>
+
+            <button>Fechar</button>
+        </div>
+        <script type="text/javascript" src="../jquery.min.js"></script>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
