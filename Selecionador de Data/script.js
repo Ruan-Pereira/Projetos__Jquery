@@ -26,6 +26,4 @@ $(function(){
         var hora = $(this).html();
         horaescolhaCampo.val(hora);
     })
-
-
 })
